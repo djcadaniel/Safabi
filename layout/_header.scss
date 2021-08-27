@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    min-width: 320px;
+    background-image: url('../src/img/fonHeader.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.header__logo{
+    display: block;
+    width: 30%;
+    height: 100%;
+    // line-height: 80px;
+    // text-align: left;
+}
+.header__logo a{
+    margin-left: 15px;
+}
+.header__logo a img{    
+    height: 80px;
+    margin: 0;
+    padding:0 ;
+}
+.header__nav{
+    width: 70%;
+    height: inherit;
+    border-radius:0 0 0 40px;
+    background: rgba(0, 0, 0, 0.07);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit;
+    width: 100%;
+    list-style:none;
+}
+.menu__li--item{
+    text-decoration: none;
+    // margin: 0 10px;
+    color: $negro;
+}
