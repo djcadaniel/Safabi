@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    max-width: 1260px;
+    width: 100%;
     min-width: 320px;
     font-family: verdana;
     font-size: 1.6rem;
@@ -15,5 +15,5 @@ body{
     // background-image: url('../src/img/fonHeader.svg');
     // background-repeat: no-repeat;
     // background-size:cover;
-    background-color:white ;
+    background-color:red ;
 }
