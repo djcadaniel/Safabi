@@ -8,12 +8,12 @@ html{
 }
 body{
     width: 100%;
+    max-width: 1600px;
     min-width: 320px;
     font-family: verdana;
     font-size: 1.6rem;
     margin: 0 auto;
-    // background-image: url('../src/img/fonHeader.svg');
-    // background-repeat: no-repeat;
-    // background-size:cover;
-    background-color:red ;
+    background-image: url('../src/img/fonHeader.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
 }
