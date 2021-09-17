@@ -169,7 +169,7 @@
 .splide__pagination {
     position: absolute;
     z-index: 1;
-    bottom: 2em;
+    bottom: 8em;
     left: 50%;
     transform: translateX(-50%);
     padding: 0
