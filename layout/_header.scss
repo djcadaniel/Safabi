@@ -5,41 +5,40 @@
     max-width: 1400px;
     width: 100%;
     min-width: 320px;
-    min-height: 100vh;
     margin: 0 auto;
 }
 
 .header__hero {
+    height: calc(100vh + 50px);
     width: 100%;
     min-width: 290px;
-    height: 100vh;
-}
-
-.splide__slide img {
-    height: auto;
-    object-fit: cover;
 }
 
 /*====SPLIDE====*/
 .splide {
-    height: inherit;
+    // height: 100vh;
 }
 
 .splide__track {
-    height: 100vh;
+    // height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: calc(100vh + 50px);
+    object-fit: cover;
 }
 
 /*====fin SPLIDE====*/
 .header__content {
     position: absolute;
     top: 0;
-    width: 60%;
+    width: 100%;
     min-width: 290px;
     height: 70px;
     @include flexFila;
-
 }
 
 .header__logo {
@@ -98,6 +97,17 @@
     margin-bottom: 3px;
     border-radius: 15px;
     background-color: white;
+}
+
+.header__barra {
+    width: 100%;
+    min-width: 290px;
+    background-color: red;
+}
+
+.header__barra img {
+    height: 150px;
+    width: 100%;
 }
 
 @media only screen and (max-width:768px) {
