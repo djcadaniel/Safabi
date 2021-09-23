@@ -1,0 +1,14 @@
+.main__nube{
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: red;
+}
+.main__nube img{
+    position: absolute;
+    top: -100px;
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+}

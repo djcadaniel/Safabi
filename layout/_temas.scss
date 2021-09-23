@@ -1,0 +1,40 @@
+.temas{
+    max-width: 1400px;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    text-align: center;
+    background-image: url('../src/img/cielo/cielo1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.temas__container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 8%;
+    
+}
+.temas__container h2{
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+.temas__item{
+    border-radius: 40px;
+    padding: 2% 1% 2% 1%;
+    margin-right: 15px;
+    background:rgba( $blanco, .5);
+}
+.temas__item:nth-child(4){
+    margin-right: 0px;
+}
+.temas__item img{
+    max-width: 90%;
+    border-radius: 10px;
+}
+.temas__item h3{
+    margin-top: 13px;
+}

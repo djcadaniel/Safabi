@@ -1,0 +1,22 @@
+<svg width="1366" height="768" viewBox="0 0 1366 768" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="1366" height="768" fill="white"/>
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1366" height="768">
+<rect width="1366" height="768" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M1366 -127H0V304H1366V-127Z" fill="#A2E9FF"/>
+<path d="M1379 303.859H0.658203V804.142H1379V303.859Z" fill="#FDCB5A"/>
+<rect x="142.432" y="619.444" width="127.164" height="42.1379" fill="url(#pattern0)"/>
+<rect x="96.207" y="619.443" width="37.1561" height="42.3391" fill="url(#pattern1)"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1"/>
+</pattern>
+<image id="image0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAf8AAAC0CAYAAACaGSWlAAAACXBIWXMAAGi6AABougGxg/ifAAAA"/>
+<image id="image1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIYAAACfCAYAAAA8oKHCAAAACXBIWXMAAFyUAABclAH4bFn4AAAA"/>
+</defs>
+</svg>

@@ -49,7 +49,7 @@ body {
 }
 
 .header__hero {
-  height: calc(100vh + 50px);
+  height: calc(100vh + 100px);
   width: 100%;
   min-width: 290px;
 }
@@ -62,7 +62,7 @@ body {
 
 .splide__slide img {
   width: 100%;
-  height: calc(100vh + 50px);
+  height: calc(100vh + 100px);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -71,6 +71,7 @@ body {
 .header__content {
   position: absolute;
   top: 0;
+  margin-bottom: 50px;
   width: 100%;
   min-width: 290px;
   height: 70px;
@@ -159,17 +160,6 @@ body {
   background-color: white;
 }
 
-.header__barra {
-  width: 100%;
-  min-width: 290px;
-  background-color: red;
-}
-
-.header__barra img {
-  height: 150px;
-  width: 100%;
-}
-
 @media only screen and (max-width: 768px) {
   .header__nav {
     position: fixed;
@@ -224,6 +214,197 @@ body {
   }
 }
 main {
+  max-width: 1600px;
+  width: 100%;
+  margin: -100px auto 0 auto;
+}
+
+.welcome {
+  position: relative;
+  width: 100%;
+  height: calc(100vh + 170px);
   max-width: 1400px;
+  min-width: 320px;
   margin: 0 auto;
+  background-image: url("../src/img/universo/fondoEspacio.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome__planeta {
+  position: absolute;
+  left: 60%;
+  top: 10%;
+}
+
+.welcome__texto {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.welcome__texto--details {
+  color: white;
+  width: 70%;
+  padding-top: 33%;
+  padding-left: 5%;
+}
+
+.welcome__texto--details p {
+  font-size: 1.5rem;
+}
+
+.welcome__planetas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.welcome__pluton {
+  position: absolute;
+  left: 47%;
+  top: 20%;
+}
+
+.welcome__pluton img {
+  max-width: 70%;
+}
+
+.welcome__saturno {
+  position: absolute;
+  top: 11%;
+  left: -3.9%;
+}
+
+.welcome__saturno img {
+  max-width: 85%;
+}
+
+.welcome__elephant {
+  position: absolute;
+  left: 61%;
+  top: 26%;
+}
+
+.welcome__elephant img {
+  max-width: 90%;
+}
+
+.welcome__venus {
+  position: absolute;
+  left: 50%;
+  top: 78%;
+}
+
+.welcome__venus img {
+  max-width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome__pluton img {
+    max-width: 70%;
+  }
+
+  .welcome__saturno {
+    top: 4%;
+  }
+
+  .welcome__saturno img {
+    max-width: 40%;
+  }
+
+  .welcome__elephant {
+    top: 25%;
+  }
+
+  .welcome__elephant img {
+    max-width: 100%;
+  }
+
+  .welcome__venus {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+  }
+
+  .welcome__venus img {
+    max-width: 30%;
+  }
+
+  .welcome__texto--details {
+    color: white;
+    width: 65%;
+    padding-top: 30%;
+    padding-left: 13%;
+  }
+}
+.main__nube {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.main__nube img {
+  position: absolute;
+  top: -100px;
+  margin: 0 auto;
+  height: 300px;
+  width: 100%;
+}
+
+.temas {
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  text-align: center;
+  background-image: url("../src/img/cielo/cielo1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.temas__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+
+.temas__container h2 {
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 8%;
+}
+
+.temas__item {
+  border-radius: 40px;
+  padding: 2% 1% 2% 1%;
+  margin-right: 15px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.temas__item:nth-child(4) {
+  margin-right: 0px;
+}
+
+.temas__item img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.temas__item h3 {
+  margin-top: 13px;
 }
