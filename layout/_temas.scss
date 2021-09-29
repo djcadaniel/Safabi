@@ -1,4 +1,4 @@
-.temas{
+.temas {
     max-width: 1400px;
     margin: 0 auto 0 auto;
     width: 100%;
@@ -7,7 +7,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.temas__container{
+
+.temas__container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -15,26 +16,64 @@
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 8%;
-    
+
 }
-.temas__container h2{
+
+.temas__container h2 {
     width: 100%;
-    font-weight: bold;
-    margin-bottom: 8%;
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 2%;
 }
-.temas__item{
+
+.temas__item {
     border-radius: 40px;
     padding: 2% 1% 2% 1%;
-    margin-right: 15px;
-    background:rgba( $blanco, .5);
+    margin-right: 7%;
+    background: rgba($blanco, .5);
 }
-.temas__item:nth-child(4){
+
+.temas__item:nth-child(4) {
     margin-right: 0px;
 }
-.temas__item img{
+
+.temas__item img {
     max-width: 90%;
     border-radius: 10px;
 }
-.temas__item h3{
+
+.temas__item h3 {
     margin-top: 13px;
+}
+
+@media only screen and(max-width:768px) {
+    .temas__container {
+        padding-top: 15%;
+    }
+
+    .temas__container h2 {
+        font-size: 3rem;
+        margin-bottom: 1%;
+    }
+
+    .temas__container .temas__item:nth-child(2) {
+        width: 42%;
+        border-radius: 30px;
+        padding: 3%;
+        margin: 0 2% 0 6%;
+    }
+
+    .temas__container .temas__item:nth-child(3) {
+        width: 42%;
+        border-radius: 30px;
+        padding: 3%;
+        margin: 0 6% 0 2%;
+    }
+
+    .temas__container .temas__item:nth-child(4) {
+        width: 42%;
+        border-radius: 30px;
+        padding: 3%;
+        margin: 4% 0 0 0;
+    }
 }

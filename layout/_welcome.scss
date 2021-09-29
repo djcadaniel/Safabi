@@ -1,102 +1,162 @@
-.welcome{
+.welcome {
     position: relative;
     width: 100%;
     height: calc(100vh + 170px);
     max-width: 1400px;
     min-width: 320px;
     margin: 0 auto;
-    background-image: url("../src/img/universo/fondoEspacio.svg");
+    background-image: url("../src/img/universo/fondoEspacio.png");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 100% 100%;
+    background-position: center;
 }
-.welcome__planeta{
-    position: absolute;
-    left: 60%;
-    top: 10%;
-}
-.welcome__texto{
+
+.welcome__texto {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
-.welcome__texto--details{
+
+.welcome__texto--details {
     color: $blanco;
-    width: 70%;
-    padding-top: 33%;
+    width: 50%;
+    padding-top: 26%;
     padding-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
-.welcome__texto--details p{
-    font-size: 1.5rem;
+
+.welcome__texto--details h2 {
+    font-size: 3.6rem;
+    text-shadow: 2px 2px 2px black;
 }
-.welcome__planetas{
+
+.welcome__texto--details p {
+    font-size: 2.2rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px black;
+}
+
+.welcome__texto--btn {
+    font-size: 1.7rem;
+    padding: 2% 5%;
+    margin-left: 68%;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: $mostaza;
+}
+
+.welcome__planetas {
     position: absolute;
-    left:0;
+    left: 0;
     top: 0;
     bottom: 0;
     right: 0;
 }
-.welcome__pluton{
-    position: absolute;
-    left: 47%;
-    top: 20%;
-}
-.welcome__pluton img{
-    max-width: 70%;
-}
-.welcome__saturno{
-    position: absolute;
-    top: 11%;
-    left: -3.9%;
-}
-.welcome__saturno img{
-    max-width: 85%;
-}
-.welcome__elephant{
-    position: absolute;
-    left: 61%;
-    top: 26%;
-}
-.welcome__elephant img{
-    max-width: 90%;
-}
-.welcome__venus{
+
+.welcome__pluton {
     position: absolute;
     left: 50%;
-    top: 78%;
+    top: 20%;
 }
-.welcome__venus img{
-    max-width: 60%;
+
+.welcome__pluton img {
+    width: 42%;
 }
-@media only screen and (max-width:768px){
-    .welcome__pluton img{
-        max-width: 70%;
+
+.welcome__saturno {
+    position: absolute;
+    left: -3%;
+    top: 8%;
+}
+
+.welcome__saturno img {
+    width: 120%;
+}
+
+.welcome__elephant {
+    position: absolute;
+    left: 68%;
+    top: 21%;
+}
+
+.welcome__elephant img {
+    width: 120%;
+}
+
+.welcome__venus {
+    position: absolute;
+    left: 35%;
+    top: 75%;
+}
+
+.welcome__venus img {
+    width: 90%;
+}
+
+@media only screen and (max-width:768px) {
+    .welcome__texto--details {
+        width: 70%;
+        // margin: 0 auto;
+        padding-top: 35%;
+        padding-left: 5%;
     }
-    .welcome__saturno{
-        top: 4%;
+
+    .welcome__texto--details h2 {
+        font-size: 3.2rem;
     }
-    .welcome__saturno img{
-        max-width: 40%;
+
+    .welcome__texto--details p {
+        font-size: 2rem;
+        text-shadow: 2px 2px 1px black;
     }
-    .welcome__elephant{
-        top: 25%;
+
+    .welcome__texto--btn {
+        font-size: 1.7rem;
+        padding: 2% 4%;
+        margin-left: 66%;
+        margin-top: 0px;
+        border-radius: 15px;
+        border: none;
+        background-color: $mostaza;
     }
-    .welcome__elephant img{
-        max-width: 100%;
+
+    .welcome__pluton {
+        left: 75%;
+        top: 10%;
     }
-    .welcome__venus{
+
+    .welcome__pluton img {
+        width: 70%;
+    }
+
+    .welcome__saturno {
+        left: -3%;
+        top: 8%;
+    }
+
+    .welcome__saturno img {
+        width: 80%;
+    }
+
+    .welcome__elephant {
         position: absolute;
-        left: 50%;
-        top: 70%;
+        left: 68%;
+        top: 45%;
     }
-    .welcome__venus img{
-        max-width: 30%;
+
+    .welcome__elephant img {
+        width: 85%;
     }
-    .welcome__texto--details{
-        color: $blanco;
-        width: 65%;
-        padding-top: 30%;
-        padding-left: 13%;
+
+    .welcome__venus {
+        left: 35%;
+        top: 80%;
+    }
+
+    .welcome__venus img {
+        width: 55%;
     }
 }
-
-
