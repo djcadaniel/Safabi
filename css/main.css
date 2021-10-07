@@ -313,7 +313,7 @@ main {
 .welcome__venus {
   position: absolute;
   left: 35%;
-  top: 75%;
+  top: 70%;
 }
 
 .welcome__venus img {
@@ -388,23 +388,25 @@ main {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  background-color: red;
+  z-index: 99;
   overflow-x: hidden;
 }
 
 .main__nube img {
   position: absolute;
-  top: -100px;
-  left: -10%;
-  margin: 0 auto;
+  margin-top: -10%;
   width: 120%;
+  margin: 0 auto;
+  height: 100px;
 }
 
 .temas {
+  position: relative;
   max-width: 1400px;
   margin: 0 auto 0 auto;
   width: 100%;
   text-align: center;
+  padding-bottom: 7%;
   background-image: url("../src/img/cielo/cielo1.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -452,6 +454,12 @@ main {
 
 .temas__item h3 {
   margin-top: 13px;
+}
+
+.temas__nubecita {
+  position: absolute;
+  top: 70%;
+  left: -2%;
 }
 
 @media only screen and (max-width: 768px) {

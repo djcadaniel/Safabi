@@ -3,14 +3,14 @@
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
-    background-color: red;
+    z-index: 99;
     overflow-x: hidden;
 }
 
 .main__nube img {
     position: absolute;
-    top: -100px;
-    left: -10%;
-    margin: 0 auto;
+    margin-top: -10%;
     width: 120%;
+    margin: 0 auto;
+    height: 100px;
 }
