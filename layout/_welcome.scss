@@ -1,51 +1,50 @@
 .welcome {
     position: relative;
-    width: 100%;
-    height: calc(100vh + 170px);
+    min-height: calc(100vh + 150px);
     max-width: 1400px;
     min-width: 320px;
     margin: 0 auto;
     background-image: url("../src/img/universo/fondoEspacio.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
+    background-size: cover;
 
-.welcome__texto {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
+    &__texto {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
 
-.welcome__texto--details {
-    color: $blanco;
-    width: 50%;
-    padding-top: 26%;
-    padding-left: 5%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-}
+        &--details {
+            color: $blanco;
+            width: 50%;
+            padding-top: 26%;
+            padding-left: 5%;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
 
-.welcome__texto--details h2 {
-    font-size: 3.6rem;
-    text-shadow: 2px 2px 2px black;
-}
+            h2 {
+                font-size: 3.6rem;
+                text-shadow: 2px 2px 2px black;
+            }
 
-.welcome__texto--details p {
-    font-size: 2.2rem;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 300;
-    text-shadow: 2px 2px 2px black;
-}
+            p {
+                font-size: 2.2rem;
+                font-family: 'Kanit', sans-serif;
+                font-weight: 300;
+                text-shadow: 2px 2px 2px black;
+            }
+        }
 
-.welcome__texto--btn {
-    font-size: 1.7rem;
-    padding: 2% 5%;
-    margin-left: 68%;
-    margin-top: 15px;
-    border-radius: 15px;
-    border: none;
-    background-color: $mostaza;
+        &--btn {
+            font-size: 1.7rem;
+            padding: 2% 5%;
+            margin-left: 68%;
+            margin-top: 15px;
+            border-radius: 15px;
+            border: none;
+            background-color: $mostaza;
+        }
+
+    }
 }
 
 .welcome__planetas {
@@ -94,6 +93,14 @@
 
 .welcome__venus img {
     width: 90%;
+}
+
+.welcome__nube {
+    position: absolute;
+    bottom: -15rem;
+    left: 0;
+    right: 0;
+    width: 120%;
 }
 
 @media only screen and (max-width:768px) {

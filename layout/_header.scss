@@ -4,31 +4,26 @@
     justify-content: space-around;
     max-width: 1400px;
     width: 100%;
+    height: calc(100vh + 80px);
     min-width: 320px;
-    margin: 0 auto;
 }
 
 .header__hero {
-    height: calc(100vh + 100px);
     width: 100%;
     min-width: 290px;
 }
 
 /*====SPLIDE====*/
 .splide {
-    // height: 100vh;
+    height: calc(100vh + 80px);
 }
 
-.splide__track {
-    // height: 100vh;
-    margin: 0;
-    padding: 0;
-}
+.splide__slide {}
 
 .splide__slide img {
-    width: 100%;
-    height: calc(100vh + 100px);
-    object-fit: cover;
+    min-height: calc(100vh + 80px);
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 /*====fin SPLIDE====*/
@@ -132,6 +127,7 @@
 
     .header__button {
         display: block;
+        z-index: $buttonMenu;
     }
 
     .visible {

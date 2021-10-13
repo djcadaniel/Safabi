@@ -41,10 +41,6 @@
     margin: 0
 }
 
-.splide {
-    visibility: hidden
-}
-
 .splide,
 .splide__slide {
     position: relative;
