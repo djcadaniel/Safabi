@@ -1,0 +1,16 @@
+.main__nube {
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    z-index: 99;
+    overflow-x: hidden;
+}
+
+.main__nube img {
+    position: absolute;
+    margin-top: -10%;
+    width: 120%;
+    margin: 0 auto;
+    height: 100px;
+}
