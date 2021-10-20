@@ -291,14 +291,14 @@
 
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:420px) {
     .welcome {
         &__texto {
             &--details {
                 width: 100%;
                 font-weight: 600;
                 width: 90%;
-                padding-top: 45%;
+                padding-top: 35%;
 
                 p {
                     text-align: justify;
@@ -333,7 +333,86 @@
             .welcome__saturno {
                 position: absolute;
                 left: -3%;
-                top: 50%;
+                top: 45%;
+                width: 45%;
+
+                img {
+                    max-width: 100%;
+                    // min-width: 280px;
+                }
+            }
+
+            .welcome__elephant {
+                position: absolute;
+                left: 43%;
+                top: 52%;
+                width: 45%;
+
+                img {
+                    max-width: 100%;
+                    min-width: 220px;
+                }
+            }
+
+            .welcome__venus {
+                position: absolute;
+                left: 10%;
+                top: 78%;
+                width: 30%;
+
+                img {
+                    max-width: 100%;
+                    min-width: 100px;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:370px) {
+    .welcome {
+        &__texto {
+            &--details {
+                width: 100%;
+                font-weight: 600;
+                width: 90%;
+                padding-top: 30%;
+
+                p {
+                    text-align: justify;
+                }
+
+                button {
+                    font-size: 1.7rem;
+                    padding: 2% 4%;
+                    margin-left: 64%;
+                    margin-top: 20px;
+                    border-radius: 15px;
+                    border: none;
+                    background-color: $mostaza;
+                }
+            }
+        }
+
+
+        &__planetas {
+            .welcome__pluton {
+                position: absolute;
+                left: 68%;
+                top: 2%;
+                width: 20%;
+
+                img {
+                    max-width: 100%;
+                    min-width: 90px;
+                }
+            }
+
+            .welcome__saturno {
+                position: absolute;
+                left: -3%;
+                top: 53%;
                 width: 45%;
 
                 img {
@@ -345,7 +424,7 @@
             .welcome__elephant {
                 position: absolute;
                 left: 50%;
-                top: 50%;
+                top: 58%;
                 width: 45%;
 
                 img {

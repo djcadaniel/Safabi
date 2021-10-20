@@ -405,12 +405,12 @@ body {
     min-width: 150px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .welcome__texto--details {
     width: 100%;
     font-weight: 600;
     width: 90%;
-    padding-top: 45%;
+    padding-top: 35%;
   }
   .welcome__texto--details p {
     text-align: justify;
@@ -437,7 +437,66 @@ body {
   .welcome__planetas .welcome__saturno {
     position: absolute;
     left: -3%;
-    top: 50%;
+    top: 45%;
+    width: 45%;
+  }
+  .welcome__planetas .welcome__saturno img {
+    max-width: 100%;
+  }
+  .welcome__planetas .welcome__elephant {
+    position: absolute;
+    left: 43%;
+    top: 52%;
+    width: 45%;
+  }
+  .welcome__planetas .welcome__elephant img {
+    max-width: 100%;
+    min-width: 220px;
+  }
+  .welcome__planetas .welcome__venus {
+    position: absolute;
+    left: 10%;
+    top: 78%;
+    width: 30%;
+  }
+  .welcome__planetas .welcome__venus img {
+    max-width: 100%;
+    min-width: 100px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .welcome__texto--details {
+    width: 100%;
+    font-weight: 600;
+    width: 90%;
+    padding-top: 30%;
+  }
+  .welcome__texto--details p {
+    text-align: justify;
+  }
+  .welcome__texto--details button {
+    font-size: 1.7rem;
+    padding: 2% 4%;
+    margin-left: 64%;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FEE25A;
+  }
+  .welcome__planetas .welcome__pluton {
+    position: absolute;
+    left: 68%;
+    top: 2%;
+    width: 20%;
+  }
+  .welcome__planetas .welcome__pluton img {
+    max-width: 100%;
+    min-width: 90px;
+  }
+  .welcome__planetas .welcome__saturno {
+    position: absolute;
+    left: -3%;
+    top: 53%;
     width: 45%;
   }
   .welcome__planetas .welcome__saturno img {
@@ -446,7 +505,7 @@ body {
   .welcome__planetas .welcome__elephant {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 58%;
     width: 45%;
   }
   .welcome__planetas .welcome__elephant img {
@@ -658,7 +717,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 12%;
-    background-color: red;
   }
   .temas__container--nube {
     position: absolute;
