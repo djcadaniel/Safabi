@@ -174,6 +174,7 @@ body {
   min-width: 320px;
   width: 100%;
   margin-top: -80px;
+  overflow: hidden;
 }
 
 .welcome {
@@ -185,6 +186,8 @@ body {
   background-image: url("../src/img/universo/fondoEspacio.png");
   background-repeat: no-repeat;
   background-size: cover;
+  scrollbar-width: 0;
+  overflow: hidden;
 }
 .welcome__texto {
   max-width: 1200px;
@@ -248,7 +251,7 @@ body {
 .welcome__planetas .welcome__elephant {
   position: absolute;
   left: 68%;
-  top: 21%;
+  top: 15%;
   width: 30%;
 }
 .welcome__planetas .welcome__elephant img {
@@ -257,18 +260,11 @@ body {
 .welcome__planetas .welcome__venus {
   position: absolute;
   left: 35%;
-  top: 78%;
+  top: 75%;
   width: 25%;
 }
 .welcome__planetas .welcome__venus img {
   max-width: 100%;
-}
-.welcome__planetas .welcome__nube {
-  position: absolute;
-  bottom: -15rem;
-  left: 0;
-  right: 0;
-  width: 120%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -479,19 +475,48 @@ body {
 }
 
 .temas__container {
+  position: relative;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 8%;
+  padding-top: 12%;
+}
+.temas__container--nube {
+  position: absolute;
+  width: 120%;
+  left: -15%;
+  top: -18%;
+}
+.temas__container--nube img {
+  max-width: 120%;
+  height: 100%;
 }
 .temas__container h2 {
   width: 100%;
   font-weight: 800;
   font-size: 4rem;
   margin-bottom: 2%;
+}
+.temas__container--nubecita {
+  position: absolute;
+  top: 87%;
+  left: -12%;
+  width: 25%;
+}
+.temas__container--nubecita img {
+  max-width: 100%;
+}
+.temas__container--aves {
+  position: absolute;
+  top: 27%;
+  right: -15%;
+  width: 25%;
+}
+.temas__container--aves img {
+  max-width: 100%;
 }
 
 .temas__item {
@@ -501,7 +526,7 @@ body {
   background: rgba(255, 255, 255, 0.5);
 }
 
-.temas__item:nth-child(4) {
+.temas__item:nth-child(5) {
   margin-right: 0px;
 }
 
@@ -524,31 +549,71 @@ body {
   .temas__container {
     padding-top: 15%;
   }
+  .temas__container--nube {
+    position: absolute;
+    width: 120%;
+    left: -20%;
+    top: -15%;
+  }
+  .temas__container--nube img {
+    max-width: 120%;
+    height: 100%;
+  }
 
   .temas__container h2 {
     font-size: 3rem;
     margin-bottom: 1%;
   }
 
-  .temas__container .temas__item:nth-child(2) {
+  .temas__container .temas__item:nth-child(3) {
     width: 42%;
     border-radius: 30px;
     padding: 3%;
     margin: 0 2% 0 6%;
   }
 
-  .temas__container .temas__item:nth-child(3) {
+  .temas__container .temas__item:nth-child(4) {
     width: 42%;
     border-radius: 30px;
     padding: 3%;
     margin: 0 6% 0 2%;
   }
 
-  .temas__container .temas__item:nth-child(4) {
+  .temas__container .temas__item:nth-child(5) {
     width: 42%;
     border-radius: 30px;
     padding: 3%;
     margin: 4% 0 0 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .temas__container {
+    padding-top: 15%;
+  }
+  .temas__container--nube {
+    position: absolute;
+    width: 120%;
+    left: -20%;
+    top: -13%;
+  }
+  .temas__container--nube img {
+    max-width: 120%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .temas__container {
+    padding-top: 15%;
+  }
+  .temas__container--nube {
+    position: absolute;
+    width: 120%;
+    left: -20%;
+    top: -10%;
+  }
+  .temas__container--nube img {
+    max-width: 120%;
+    height: 100%;
   }
 }
 @media only screen and (max-width: 528px) {
@@ -559,19 +624,23 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 8%;
+    padding-top: 12%;
+  }
+  .temas__container--nube {
+    position: absolute;
+    width: 120%;
+    left: -20%;
+    top: -4%;
+  }
+  .temas__container--nube img {
+    max-width: 120%;
+    height: 100%;
   }
   .temas__container h2 {
     width: 100%;
     font-weight: 800;
     font-size: 4rem;
     margin-bottom: 2%;
-  }
-  .temas__container .temas__item:nth-child(2) {
-    width: 100%;
-    border-radius: 15px;
-    padding: 3%;
-    margin: 3% 8%;
   }
   .temas__container .temas__item:nth-child(3) {
     width: 100%;
@@ -585,8 +654,14 @@ body {
     padding: 3%;
     margin: 3% 8%;
   }
+  .temas__container .temas__item:nth-child(5) {
+    width: 100%;
+    border-radius: 15px;
+    padding: 3%;
+    margin: 3% 8%;
+  }
   .temas__container .temas__item img {
-    border-radius: 15x;
+    border-radius: 15px;
   }
 }
 

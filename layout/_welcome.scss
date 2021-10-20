@@ -7,6 +7,8 @@
     background-image: url("../src/img/universo/fondoEspacio.png");
     background-repeat: no-repeat;
     background-size: cover;
+    scrollbar-width: 0;
+    overflow: hidden;
 
     &__texto {
         max-width: 1200px;
@@ -81,7 +83,7 @@
     .welcome__elephant {
         position: absolute;
         left: 68%;
-        top: 21%;
+        top: 15%;
         width: 30%;
 
         img {
@@ -93,21 +95,12 @@
     .welcome__venus {
         position: absolute;
         left: 35%;
-        top: 78%;
+        top: 75%;
         width: 25%;
 
         img {
             max-width: 100%;
         }
-    }
-
-
-    .welcome__nube {
-        position: absolute;
-        bottom: -15rem;
-        left: 0;
-        right: 0;
-        width: 120%;
     }
 }
 
