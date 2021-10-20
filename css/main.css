@@ -13,6 +13,7 @@
 
 html {
   font-size: 62.5%;
+  margin: 0 auto;
 }
 
 body {
@@ -38,6 +39,7 @@ body {
   width: 100%;
   height: calc(100vh + 80px);
   min-width: 320px;
+  margin: 0 auto;
 }
 
 .header__hero {
@@ -173,8 +175,8 @@ body {
   max-width: 1400px;
   min-width: 320px;
   width: 100%;
-  margin-top: -80px;
   overflow: hidden;
+  margin: -80px auto 0 auto;
 }
 
 .welcome {
@@ -480,19 +482,18 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-top: 12%;
 }
 .temas__container--nube {
   position: absolute;
   width: 120%;
-  left: -15%;
+  left: -10%;
   top: -18%;
 }
 .temas__container--nube img {
-  max-width: 120%;
-  height: 100%;
+  width: 100%;
 }
 .temas__container h2 {
   width: 100%;
@@ -505,6 +506,7 @@ body {
   top: 87%;
   left: -12%;
   width: 25%;
+  min-width: 300px;
 }
 .temas__container--nubecita img {
   max-width: 100%;
@@ -546,20 +548,6 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .temas__container {
-    padding-top: 15%;
-  }
-  .temas__container--nube {
-    position: absolute;
-    width: 120%;
-    left: -20%;
-    top: -15%;
-  }
-  .temas__container--nube img {
-    max-width: 120%;
-    height: 100%;
-  }
-
   .temas__container h2 {
     font-size: 3rem;
     margin-bottom: 1%;
@@ -593,12 +581,11 @@ body {
   .temas__container--nube {
     position: absolute;
     width: 120%;
-    left: -20%;
-    top: -13%;
+    left: -10%;
+    top: -10%;
   }
   .temas__container--nube img {
-    max-width: 120%;
-    height: 100%;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -608,12 +595,11 @@ body {
   .temas__container--nube {
     position: absolute;
     width: 120%;
-    left: -20%;
-    top: -10%;
+    left: -10%;
+    top: -8%;
   }
   .temas__container--nube img {
-    max-width: 120%;
-    height: 100%;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 528px) {
@@ -629,12 +615,11 @@ body {
   .temas__container--nube {
     position: absolute;
     width: 120%;
-    left: -20%;
+    left: -10%;
     top: -4%;
   }
   .temas__container--nube img {
-    max-width: 120%;
-    height: 100%;
+    width: 100%;
   }
   .temas__container h2 {
     width: 100%;

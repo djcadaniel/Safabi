@@ -17,19 +17,19 @@
     flex-flow: row wrap;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding-top: 12%;
 
     &--nube {
         position: absolute;
         width: 120%;
-        left: -15%;
+        left: -10%;
         top: -18%;
 
         img {
-            max-width: 120%;
-            height: 100%;
+            width: 100%;
+            // min-width: 280px;
         }
     }
 
@@ -45,6 +45,7 @@
         top: 87%;
         left: -12%;
         width: 25%;
+        min-width: 300px;
 
         img {
             max-width: 100%;
@@ -90,21 +91,6 @@
 }
 
 @media only screen and(max-width:1024px) {
-    .temas__container {
-        padding-top: 15%;
-
-        &--nube {
-            position: absolute;
-            width: 120%;
-            left: -20%;
-            top: -15%;
-
-            img {
-                max-width: 120%;
-                height: 100%;
-            }
-        }
-    }
 
 
     .temas__container h2 {
@@ -141,12 +127,12 @@
         &--nube {
             position: absolute;
             width: 120%;
-            left: -20%;
-            top: -13%;
+            left: -10%;
+            top: -10%;
 
             img {
-                max-width: 120%;
-                height: 100%;
+                width: 100%;
+                // min-width: 280px;
             }
         }
     }
@@ -159,12 +145,12 @@
         &--nube {
             position: absolute;
             width: 120%;
-            left: -20%;
-            top: -10%;
+            left: -10%;
+            top: -8%;
 
             img {
-                max-width: 120%;
-                height: 100%;
+                width: 100%;
+                // min-width: 280px;
             }
         }
     }
@@ -183,12 +169,12 @@
         &--nube {
             position: absolute;
             width: 120%;
-            left: -20%;
+            left: -10%;
             top: -4%;
 
             img {
-                max-width: 120%;
-                height: 100%;
+                width: 100%;
+                // min-width: 280px;
             }
         }
 
