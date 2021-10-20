@@ -649,5 +649,26 @@ body {
     border-radius: 15px;
   }
 }
+@media only screen and (max-width: 420px) {
+  .temas__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 12%;
+    background-color: red;
+  }
+  .temas__container--nube {
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    top: -4%;
+  }
+  .temas__container--nube img {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -210,7 +210,29 @@
             border-radius: 15px;
         }
     }
+}
 
+@media only screen and(max-width:420px) {
+    .temas__container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 12%;
+        background-color: red;
 
+        &--nube {
+            position: absolute;
+            width: 120%;
+            left: -10%;
+            top: -4%;
 
+            img {
+                width: 100%;
+                // min-width: 280px;
+            }
+        }
+    }
 }
