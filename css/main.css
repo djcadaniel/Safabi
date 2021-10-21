@@ -26,6 +26,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
+  background-color: red;
 }
 
 .header {
@@ -530,9 +531,7 @@ body {
   width: 100%;
   text-align: center;
   padding-bottom: 7%;
-  background-image: url("../src/img/cielo/cielo1.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #88DEF5;
 }
 
 .temas__container {
@@ -727,6 +726,69 @@ body {
   .temas__container--nube img {
     width: 100%;
   }
+  .temas__container--nubecita {
+    position: absolute;
+    top: 64%;
+    left: -20%;
+    width: 40%;
+    min-width: 180px;
+  }
+  .temas__container--nubecita img {
+    max-width: 100%;
+  }
+  .temas__container--aves {
+    position: absolute;
+    top: 35%;
+    right: -15%;
+    width: 35%;
+  }
+  .temas__container--aves img {
+    max-width: 100%;
+  }
+}
+.nosotros {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  background-color: #88DEF5;
+}
+
+.nosotros__title {
+  font-size: 36px;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.nosotros__contain {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 3% 0% 3% 1.5%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.nosotros__contain--1 {
+  width: 100%;
+  padding-right: 30%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.nosotros__imagen {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  width: 32%;
+}
+
+.nosotros__imagen img {
+  max-width: 90%;
 }
 
 /*# sourceMappingURL=main.css.map */

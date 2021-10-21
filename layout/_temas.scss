@@ -5,9 +5,7 @@
     width: 100%;
     text-align: center;
     padding-bottom: 7%;
-    background-image: url('../src/img/cielo/cielo1.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #88DEF5;
     // overflow: hidden;
 }
 
@@ -231,6 +229,29 @@
             img {
                 width: 100%;
                 // min-width: 280px;
+            }
+        }
+
+        &--nubecita {
+            position: absolute;
+            top: 64%;
+            left: -20%;
+            width: 40%;
+            min-width: 180px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        &--aves {
+            position: absolute;
+            top: 35%;
+            right: -15%;
+            width: 35%;
+
+            img {
+                max-width: 100%;
             }
         }
     }

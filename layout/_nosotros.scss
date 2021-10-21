@@ -1,0 +1,41 @@
+.nosotros {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  background-color: #88DEF5;
+}
+
+.nosotros__title {
+  font-size: $title;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.nosotros__contain {
+  position: relative;
+  @include flexFila;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 3% 0% 3% 1.5%;
+  background: rgba($blanco, .7);
+}
+
+.nosotros__contain--1 {
+  width: 100%;
+  padding-right: 30%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.nosotros__imagen {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  width: 32%;
+}
+
+.nosotros__imagen img {
+  max-width: 90%;
+}
