@@ -830,10 +830,24 @@ body {
 .desarrollo {
   position: relative;
   width: 100%;
+  height: 100vh;
+  max-height: 100vh;
   max-width: 1400px;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 3%;
   background-color: #88DEF5;
+}
+.desarrollo__fondo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+.desarrollo__fondo img {
+  max-width: 100%;
+  height: auto;
 }
 
 .desarrollo__title {
@@ -842,30 +856,52 @@ body {
 }
 
 .desarrollo__contain {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
   width: 100%;
+  height: 100%;
   margin: 0 auto;
-  padding: 2% 8%;
-  background-color: blue;
+  padding: 0 8%;
 }
 
 .desarrollo__contain--1 {
-  width: 40%;
+  width: 48%;
+  padding-bottom: 3%;
   list-style: none;
-  background-color: green;
 }
-.desarrollo__contain--1 li {
+.desarrollo__contain--1 .desarrollo__contain--li {
+  position: relative;
   display: flex;
 }
-.desarrollo__contain--1 li .desarrollo__contain--img {
-  border-radius: 15px;
-  background-color: black;
-  width: 30%;
+.desarrollo__contain--1 .desarrollo__contain--li .desarrollo__contain--img {
+  position: absolute;
+  bottom: 11%;
+  left: 0;
+  height: 120%;
+  border-radius: 50%;
+  width: 20%;
 }
-.desarrollo__contain--1 li .desarrollo__contain--img img {
-  max-width: 90%;
+.desarrollo__contain--1 .desarrollo__contain--li .desarrollo__contain--img img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 10px solid #88DEF5;
+  object-fit: cover;
 }
-.desarrollo__contain--1 li .desarrollo__contain--text {
-  background-color: skyblue;
+.desarrollo__contain--1 .desarrollo__contain--li .desarrollo__contain--text {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 135px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding: 2% 1% 2% 28%;
+  background: rgba(255, 255, 255, 0.7);
+}
+.desarrollo__contain--1 .desarrollo__contain--li .desarrollo__contain--text h2 {
+  font-size: 1.9rem;
 }
 
 /*# sourceMappingURL=main.css.map */
