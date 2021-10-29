@@ -26,7 +26,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
-  background-color: red;
+  background-color: #88DEF5;
 }
 
 .header {
@@ -829,25 +829,11 @@ body {
 
 .desarrollo {
   position: relative;
-  width: 100%;
-  height: 100vh;
-  max-height: 100vh;
+  width: 100vw;
+  height: calc(100vh + 100px);
   max-width: 1400px;
   margin: 0 auto;
   padding-top: 3%;
-  background-color: #88DEF5;
-}
-.desarrollo__fondo {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-}
-.desarrollo__fondo img {
-  max-width: 100%;
-  height: auto;
 }
 
 .desarrollo__title {
@@ -859,11 +845,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: center;
-  width: 100%;
+  justify-content: flex-start;
+  min-width: 100vw;
   height: 100%;
   margin: 0 auto;
-  padding: 0 8%;
+  padding: 5% 8% 0 8%;
+  background: url("../src/img/desarrollo/arbolFondo.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: blue;
 }
 
 .desarrollo__contain--1 {
